@@ -6,35 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        h1,
-        h3,
-        h5 {
-            background-color: red;
+        .header {
+            background-color: Darkblue;
             color: white;
-            font-size: 25px;
-            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            font-family: Arial;
+
         }
 
-        h2,
-        h4,
-        h6 {
-            background-color: black;
-            color: rgba(255, 0, 255, 0.7);
-            font-size: 34px;
-            font-family:Arial, Helvetica, sans-serif;
+        #navbar {
+
+            list-style-type: none;
+        }
+
+        #navbar li {
+            float: left;
+            margin: 2px;
+        }
+
+        #heading3 {
+            background-color: rgb(164, 106, 212);
+
+        }
+
+        #heading2 {
+            background-color: rgb(164, 106, 212);
+
         }
     </style>
 </head>
 
-<body>
-    <h1>shayan lakhani</h1>
-    <h1>shayan lakhani</h1>
-    <h1>shayan lakhani</h1>
-    <h2>shayan lakhani</h2>
-    <h3>shayan lakhani</h3>
-    <h4>shayan lakhani</h4>
-    <h5>shayan lakhani</h5>
-    <h6>shayan lakhani</h6>
+<body style="background-color:rgb(183, 133, 202);">
+    <div class="wholebody">
+        <h1 class="header">Trillium Media Design</h1>
+        <nav>
+            <ul id="navbar">
+                <li> <a href="home.html"> Home</a></li>
+                <li> <a href="services.html"> services</a></li>
+                <li> <a href="contact.html"> contact</a></li>
+                <br>
+            </ul>
+        </nav>
+        <div>
+            <h3 id="heading2">New Media and Webdesign</h3>
+            <p>Trillium Media Design will take your company's web presence to the next level.We offer a comprehensive
+                range of services.</p>
+            <ul>
+                <li>Website Design</li>
+                <li>Interactive Animation</li>
+                <li>E-commerce Solutions</li>
+                <li>Usability</li>
+                <li>Search Engine Optimization</li>
+            </ul>
+            <div>
+                <h3 id="heading3">Meeting your Business Needs</h3>
+                <p>Our expert designers will listen to you as they create a website that helps to promote and grow your
+                    business.</p>
+            </div>
+        </div>
+        <footer>
+            <p style="text-align: center;">copyright &copy; 2018 Your Name Here.</p>
+
+
+        </footer>
 </body>
 
 </html>
